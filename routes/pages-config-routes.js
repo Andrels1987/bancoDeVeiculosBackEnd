@@ -9,11 +9,5 @@ pageRouter.get('/', (req, res) =>{
     res.sendFile(path.join(__dirname, '..','views','index.html'))
     
 })
-pageRouter.get('/user', (req, res) =>{
-    res.sendFile(path.join(__dirname, '..','views','user.html'))
-    
-})
-
-
 
 module.exports = {pageRouter}
